@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Muli:300,400,400i,600,600i,700,700i,800,800i,900|Petit+Formal+Script&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Muli:300,400,400i,600,600i,700,700i,800,800i,900|Petit+Formal+Script&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif+Armenian:wght@100..900&display=swap');
 
 /* line 1, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_extend.scss */
 .flex-center-start {
@@ -242,7 +243,7 @@ h3 {
 .overlay2::before {
   position: absolute;
   content: "";
-  background-color: #fff;
+  background-color: #513a1b;
   top: 0;
   left: 0;
   width: 100%;
@@ -344,7 +345,7 @@ h3 {
   color: #000;
   display: inline-block;
   padding: 18px 44px;
-  font-family: "Muli", sans-serif;
+  font-family: "Noto Serif Armenian", sans-serif;
   font-size: 14px;
   font-weight: 400;
   border: 0;
@@ -378,7 +379,7 @@ h3 {
   color: #fff;
   display: inline-block;
   padding: 17px 50px 16px 50px;
-  font-family: "Muli", sans-serif;
+  font-family: "Noto Serif Armenian", sans-serif;
   font-size: 16px;
   font-weight: 400;
   border: 0;
@@ -430,7 +431,7 @@ h3 {
   color: #F2C64D;
   display: inline-block;
   padding: 15px 44px;
-  font-family: "Muli", sans-serif;
+  font-family: "Noto Serif Armenian", sans-serif;
   font-size: 16px;
   font-weight: 600;
   border: 0;
@@ -505,7 +506,7 @@ h3 {
 .section_title span {
   font-size: 18px;
   font-weight: 400;
-  font-family: "Muli", sans-serif;
+  font-family: "Noto Serif Armenian", sans-serif;
   color: #C78665;
   display: block;
   margin-top: 20px;
@@ -515,7 +516,7 @@ h3 {
 /* line 18, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_section_title.scss */
 .section_title h3 {
   font-size: 36px;
-  font-family: "Muli", sans-serif;
+  font-family: "Noto Serif Armenian", sans-serif;
   font-weight: 400;
   text-transform: uppercase;
   margin-top: 20px;
@@ -792,7 +793,7 @@ h3 {
   font-weight: 400;
   display: inline-block;
   padding: 38px 23px 38px 23px;
-  font-family: "Muli", sans-serif;
+  font-family: "Noto Serif Armenian", sans-serif;
   position: relative;
 }
 
@@ -1180,7 +1181,7 @@ h3 {
 .slider_area_inner .slider_text h4 {
   font-size: 16px;
   font-weight: 600;
-  font-family: "Muli", sans-serif;
+  font-family: "Noto Serif Armenian", sans-serif;
   color: #fff;
   margin-top: 5px;
 }
@@ -1194,6 +1195,15 @@ h3 {
   line-height: 46px;
   margin-bottom: 36px;
   margin-top: 23px;
+}
+
+.slider_area_inner .slider_text .text_names {
+  font-size: 36px;
+  font-family: "Noto Serif Armenian", cursive;
+  font-weight: 400;
+  color: #fff;
+  line-height: 46px;
+  margin: 0;
 }
 
 @media (max-width: 767px) {
@@ -1313,7 +1323,106 @@ h3 {
   background-image: url(../img/counter_bg/counter_bg.png);
 }
 
-/* line 4, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_wedding_counter.scss */
+.welcome_text {
+  padding-top: 150px;
+  padding-bottom: 75px;
+  position: relative;
+  z-index: 9;
+}
+
+.welcome_text .section_title h3 {
+  color: #C78665;
+  font-size: 36px;
+  font-family: "Noto Serif Armenian", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.welcome_text .section_title span {
+  color: #C78665;
+  font-size: 18px;
+  font-family: "Noto Serif Armenian", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.welcome_text .section_title_waiting span {
+  color: #C78665;
+  font-size: 18px;
+  font-family: "Noto Serif Armenian", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  max-width: 160px;
+}
+
+.welcome_text .flowaers_top {
+  position: absolute;
+  top: 102px;
+  right: -17px;
+}
+
+/* line 14, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_wedding_counter.scss */
+.welcome_text .flowaers_bottom {
+  position: absolute;
+  left: -144px;
+  bottom: -200px;
+}
+
+@media (max-width: 767px) {
+  .welcome_text {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+/* line 23, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_wedding_counter.scss */
+.welcome_text .countdown_area {
+  padding: 35px 35px 50px 35px;
+  background-size: cover;
+  background-position: bottom;
+}
+
+/* line 28, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_wedding_counter.scss */
+.welcome_text .countdown_area .countdown_wrap {
+  background: #fff;
+  justify-content: space-evenly;
+  padding-bottom: 36px;
+  padding-top: 30px;
+}
+
+@media (max-width: 767px) {
+  .welcome_text .countdown_area .countdown_wrap {
+    display: block !important;
+  }
+}
+
+.welcome_text .countdown_area .countdown_wrap .single_countdown {
+  text-align: center;
+}
+
+.welcome_text .countdown_area .countdown_wrap .single_countdown h3 {
+  font-size: 60px;
+  font-family: "Petit Formal Script", cursive;
+  font-weight: 400;
+  color: #C78665;
+  margin-bottom: 17px;
+}
+
+@media (max-width: 767px) {
+  .welcome_text .countdown_area .countdown_wrap .single_countdown h3 {
+    font-size: 30px;
+  }
+}
+
+.welcome_text .countdown_area .countdown_wrap .single_countdown span {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
 .weeding_countdown_area {
   padding-top: 150px;
   padding-bottom: 75px;
@@ -1321,7 +1430,6 @@ h3 {
   z-index: 9;
 }
 
-/* line 9, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_wedding_counter.scss */
 .weeding_countdown_area .flowaers_top {
   position: absolute;
   top: 102px;
@@ -1447,7 +1555,7 @@ h3 {
 
 /* line 27, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_program.scss */
 .program_details_area .single_program .program_inner h3 {
-  font-family: "Muli", sans-serif;
+  font-family: "Noto Serif Armenian", sans-serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 30px;
@@ -1459,7 +1567,7 @@ h3 {
 /* line 36, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_program.scss */
 .program_details_area .single_program .program_inner p {
   font-size: 16px;
-  font-family: "Muli", sans-serif;
+  font-family: "Noto Serif Armenian", sans-serif;
 }
 
 /* line 1, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_attending.scss */
@@ -1565,7 +1673,7 @@ h3 {
 .attending_area .main_attending_area .popup_box p {
   font-size: 15px;
   color: #727272;
-  font-family: "Muli", sans-serif;
+  font-family: "Noto Serif Armenian", sans-serif;
   margin-bottom: 34px;
 }
 
@@ -1582,7 +1690,7 @@ h3 {
   border: 1px solid #ddd;
   padding: 15px;
   margin-bottom: 20px;
-  font-family: "Muli", sans-serif;
+  font-family: "Noto Serif Armenian", sans-serif;
 }
 
 /* line 69, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_attending.scss */
@@ -1600,7 +1708,7 @@ h3 {
 .attending_area .main_attending_area .popup_box button {
   width: 100%;
   border: none;
-  font-family: "Muli", sans-serif;
+  font-family: "Noto Serif Armenian", sans-serif;
 }
 
 /* line 82, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_attending.scss */
@@ -1610,7 +1718,7 @@ h3 {
   border: 1px solid #ddd;
   padding: 15px;
   margin-bottom: 20px;
-  font-family: "Muli", sans-serif;
+  font-family: "Noto Serif Armenian", sans-serif;
 }
 
 /* line 89, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_attending.scss */
@@ -1635,7 +1743,7 @@ h3 {
   cursor: pointer;
   display: block;
   float: left;
-  font-family: "Muli", sans-serif;
+  font-family: "Noto Serif Armenian", sans-serif;
   font-weight: normal;
   width: 100% !important;
   /* height: 42px; */
@@ -1844,7 +1952,7 @@ h3 {
 .love_story_area .weding_time_line .single_time_line p {
   font-size: 16px;
   line-height: 28px;
-  font-family: "Muli", sans-serif;
+  font-family: "Noto Serif Armenian", sans-serif;
 }
 
 /* line 104, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_story.scss */
@@ -2022,7 +2130,7 @@ h3 {
 .location_area .location_info .location_inner p {
   color: #727272;
   font-size: 16px;
-  font-family: "Muli", sans-serif;
+  font-family: "Noto Serif Armenian", sans-serif;
   line-height: 28px;
   margin-bottom: 0;
   font-weight: 400;
@@ -2045,7 +2153,7 @@ h3 {
 .location_area .location_info .location_inner .address_info .single_address h4 {
   color: #C78665;
   font-size: 16px;
-  font-family: "Muli", sans-serif;
+  font-family: "Noto Serif Armenian", sans-serif;
   font-weight: 600;
 }
 
@@ -2053,7 +2161,7 @@ h3 {
 .location_area .location_info .location_inner .address_info .single_address p {
   color: #727272;
   font-size: 15px;
-  font-family: "Muli", sans-serif;
+  font-family: "Noto Serif Armenian", sans-serif;
   font-weight: 400;
   line-height: 26px;
 }
@@ -2077,7 +2185,7 @@ h3 {
 /* line 9, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_footer.scss */
 .footer .footer_top ul li a {
   font-size: 15px;
-  font-family: "Muli", sans-serif;
+  font-family: "Noto Serif Armenian", sans-serif;
   margin: 0 27px;
   color: #1F1F1F;
 }
@@ -2112,7 +2220,7 @@ h3 {
   color: #919191;
   margin-bottom: 0;
   font-weight: 400;
-  font-family: "Muli", sans-serif;
+  font-family: "Noto Serif Armenian", sans-serif;
 }
 
 @media (max-width: 767px) {
@@ -2233,7 +2341,7 @@ h3 {
 
 /* line 58, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_bradcam.scss */
 .accommodation_area p {
-  font-family: "Muli", sans-serif;
+  font-family: "Noto Serif Armenian", sans-serif;
 }
 
 /*=================== contact banner start ====================*/
